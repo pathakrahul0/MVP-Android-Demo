@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create a pin in place of password"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter a 4-digit pin"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New PIN"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/lightGrey"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+        <EditText
+            android:id="@+id/etNewPin1"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:maxLength="1"
+            android:imeOptions="actionNext"/>
+        <EditText
+            android:id="@+id/etNewPin2"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:maxLength="1"
+            android:imeOptions="actionNext"/>
+        <EditText
+            android:id="@+id/etNewPin3"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:maxLength="1"
+            android:imeOptions="actionNext"/>
+        <EditText
+            android:id="@+id/etNewPin4"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:maxLength="1"
+            android:imeOptions="actionNext"/>
+
+        <ImageView
+            android:id="@+id/ivNewPin"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/right"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm PIN"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/lightGrey"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+        <EditText
+            android:id="@+id/etConfirmPin1"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:maxLength="1"
+            android:imeOptions="actionNext"/>
+        <EditText
+            android:id="@+id/etConfirmPin2"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:maxLength="1"
+            android:imeOptions="actionNext"/>
+        <EditText
+            android:id="@+id/etConfirmPin3"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:maxLength="1"
+            android:imeOptions="actionNext"/>
+        <EditText
+            android:id="@+id/etConfirmPin4"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:maxLength="1"
+            android:imeOptions="actionNext"/>
+
+        <ImageView
+            android:id="@+id/ivConfirmPin"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/right"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btFinish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Finish"
+        android:textColor="@color/white"/>
+
+
+
+</LinearLayout>

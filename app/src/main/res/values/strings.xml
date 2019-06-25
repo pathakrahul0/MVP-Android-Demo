@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MVPDemoApp</string>
+    <string name="emptyPasswordMessage">Please enter your password</string>
+    <string name="emptyUsernameMessage">Please enter your username</string>
+    <string name="emptyEmail">Please enter your email</string>
+    <string name="validEmail">Please enter valid email</string>
+    <string name="validUsernameMessage">Please enter valid username</string>
+</resources>
